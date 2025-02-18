@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "recipe_name": "Spicy Garlic Butter Shrimp",
+    "recipe_image": "https://i.ibb.co.com/hJ67jsb1/id-1.jpg",
+    "short_description": "Juicy shrimp tossed in a spicy garlic butter sauce.",
+    "ingredients": [
+      "Shrimp",
+      "Garlic",
+      "Butter",
+      "Chili Flakes",
+      "Lemon Juice",
+      "Parsley",
+      "Salt",
+      "Pepper"
+    ],
+    "preparing_time": "20 minutes",
+    "calories": 320
+  },
+  {
+    "id": 2,
+    "recipe_name": "Classic Margherita Pizza",
+    "recipe_image": "https://i.ibb.co.com/qLvzRG4r/id-2.jpg",
+    "short_description": "A classic Italian pizza topped with fresh mozzarella and basil.",
+    "ingredients": [
+      "Pizza Dough",
+      "Tomato Sauce",
+      "Mozzarella",
+      "Basil",
+      "Olive Oil",
+      "Salt"
+    ],
+    "preparing_time": "30 minutes",
+    "calories": 450
+  },
+  {
+    "id": 3,
+    "recipe_name": "Creamy Mushroom Pasta",
+    "recipe_image": "https://i.ibb.co.com/7NX7yRzn/id-3.jpg",
+    "short_description": "Rich and creamy pasta with sautéed mushrooms and garlic.",
+    "ingredients": [
+      "Pasta",
+      "Mushrooms",
+      "Cream",
+      "Garlic",
+      "Parmesan",
+      "Butter",
+      "Salt",
+      "Pepper"
+    ],
+    "preparing_time": "25 minutes",
+    "calories": 520
+  },
+  {
+    "id": 4,
+    "recipe_name": "Grilled Lemon Herb Chicken",
+    "recipe_image": "https://i.ibb.co.com/HTzx3Byq/id-4.jpg",
+    "short_description": "Tender grilled chicken with lemon and fresh herbs.",
+    "ingredients": [
+      "Chicken Breast",
+      "Lemon",
+      "Garlic",
+      "Rosemary",
+      "Olive Oil",
+      "Salt",
+      "Pepper"
+    ],
+    "preparing_time": "35 minutes",
+    "calories": 280
+  },
+  {
+    "id": 5,
+    "recipe_name": "Avocado Toast with Poached Egg",
+    "recipe_image": "https://i.ibb.co.com/qY5TCDHk/id-5.jpg",
+    "short_description": "Healthy and delicious toast topped with creamy avocado and a poached egg.",
+    "ingredients": [
+      "Bread",
+      "Avocado",
+      "Egg",
+      "Salt",
+      "Pepper",
+      "Red Pepper Flakes"
+    ],
+    "preparing_time": "15 minutes",
+    "calories": 250
+  },
+  {
+    "id": 6,
+    "recipe_name": "Honey Garlic Glazed Salmon",
+    "recipe_image": "https://i.ibb.co.com/60dg4Yp2/id-6.jpg",
+    "short_description": "Salmon fillets glazed with a sweet and savory honey garlic sauce.",
+    "ingredients": [
+      "Salmon",
+      "Honey",
+      "Garlic",
+      "Soy Sauce",
+      "Lemon Juice",
+      "Salt",
+      "Pepper"
+    ],
+    "preparing_time": "20 minutes",
+    "calories": 400
+  },
+  {
+    "id": 7,
+    "recipe_name": "Vegetable Stir-Fry with Tofu",
+    "recipe_image": "https://i.ibb.co.com/S46wG5J9/id-7.jpg",
+    "short_description": "A colorful mix of vegetables stir-fried with tofu in a tasty sauce.",
+    "ingredients": [
+      "Tofu",
+      "Bell Peppers",
+      "Broccoli",
+      "Carrot",
+      "Soy Sauce",
+      "Garlic",
+      "Ginger"
+    ],
+    "preparing_time": "25 minutes",
+    "calories": 300
+  },
+  {
+    "id": 8,
+    "recipe_name": "Chocolate Lava Cake",
+    "recipe_image": "https://i.ibb.co.com/fYySb9Tw/id-8.jpg",
+    "short_description": "A rich and gooey chocolate cake with a molten center.",
+    "ingredients": [
+      "Dark Chocolate",
+      "Butter",
+      "Eggs",
+      "Sugar",
+      "Flour",
+      "Vanilla Extract"
+    ],
+    "preparing_time": "30 minutes",
+    "calories": 600
+  },
+  {
+    "id": 9,
+    "recipe_name": "Berry Smoothie Bowl",
+    "recipe_image": "https://i.ibb.co.com/hxbFgwXs/id-9.jpg",
+    "short_description": "A refreshing smoothie bowl loaded with fresh berries and granola.",
+    "ingredients": [
+      "Strawberries",
+      "Blueberries",
+      "Banana",
+      "Greek Yogurt",
+      "Honey",
+      "Granola"
+    ],
+    "preparing_time": "10 minutes",
+    "calories": 220
+  },
+  {
+    "id": 10,
+    "recipe_name": "Spicy Chickpea Curry",
+    "recipe_image": "https://i.ibb.co.com/QF1g2wPn/id-10.jpg",
+    "short_description": "A flavorful and spicy chickpea curry with Indian spices.",
+    "ingredients": [
+      "Chickpeas",
+      "Tomato",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Curry Powder",
+      "Coconut Milk"
+    ],
+    "preparing_time": "40 minutes",
+    "calories": 350
+  }
+]
