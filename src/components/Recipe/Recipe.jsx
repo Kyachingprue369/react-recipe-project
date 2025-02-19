@@ -2,8 +2,8 @@ import React from 'react';
 import { CiClock2 } from 'react-icons/ci';
 import { FaFireAlt } from 'react-icons/fa';
 
-const Recipe = ({ recipe }) => {
-  const { id, recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = recipe;
+const Recipe = ({ recipe, handleRecipeCard }) => {
+  const { recipe_image, recipe_name, short_description, ingredients, preparing_time, calories } = recipe;
   return (
     <div className='mx-auto mb-8'>
       <div className="card bg-base-100 w-96 shadow-xl">
@@ -19,7 +19,7 @@ const Recipe = ({ recipe }) => {
           <h4 className='font-bold'>Ingredients: {ingredients.length}</h4>
           <ul className='text-gray-400 pb-5 border-b-2'>
             {
-              ingredients.map(ingredient => <li key={ingredient.id}> • {ingredient}</li>)
+              ingredients.map((ingredient, idx) => <li key={idx}> • {ingredient}</li>)
             }
           </ul>
           <div className='flex justify-between items-center'>
@@ -27,7 +27,7 @@ const Recipe = ({ recipe }) => {
             <p className='flex items-center gap-1'><FaFireAlt /> {calories} calories </p>
           </div>
           <div className="card-actions justify-start">
-            <button className="btn mt-6 bg-green-400 rounded-3xl font-bold">Want to Cook</button>
+            <button onClick={() => handleRecipeCard(recipe)} className="btn mt-6 bg-green-400 rounded-3xl font-bold">Want to Cook</button>
           </div>
         </div>
       </div>
