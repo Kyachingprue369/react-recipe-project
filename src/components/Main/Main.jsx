@@ -27,7 +27,7 @@ const Main = () => {
       <OurRecipe></OurRecipe>
       <div className='w-11/12 mx-auto flex'>
         <Recipes handleRecipeCard={handleRecipeCard}></Recipes>
-        <Sidebar></Sidebar>
+        <Sidebar recipeCategories={recipeCategories}></Sidebar>
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ const Recipe = ({ recipe, handleRecipeCard }) => {
             }
           </ul>
           <div className='flex justify-between items-center'>
-            <p className='flex items-center gap-1'><CiClock2 /> {preparing_time}</p>
+            <p className='flex items-center gap-1'><CiClock2 /> {preparing_time} minutes</p>
             <p className='flex items-center gap-1'><FaFireAlt /> {calories} calories </p>
           </div>
           <div className="card-actions justify-start">

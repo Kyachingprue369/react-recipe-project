@@ -14,7 +14,7 @@
       "Salt",
       "Pepper"
     ],
-    "preparing_time": "20 minutes",
+    "preparing_time": 20,
     "calories": 320
   },
   {
@@ -26,11 +26,13 @@
       "Pizza Dough",
       "Tomato Sauce",
       "Mozzarella",
+      "Mozzarella",
+      "Mozzarella",
       "Basil",
       "Olive Oil",
       "Salt"
     ],
-    "preparing_time": "30 minutes",
+    "preparing_time": 30,
     "calories": 450
   },
   {
@@ -48,7 +50,7 @@
       "Salt",
       "Pepper"
     ],
-    "preparing_time": "25 minutes",
+    "preparing_time": 25,
     "calories": 520
   },
   {
@@ -62,10 +64,11 @@
       "Garlic",
       "Rosemary",
       "Olive Oil",
+      "Olive Oil",
       "Salt",
       "Pepper"
     ],
-    "preparing_time": "35 minutes",
+    "preparing_time": 35,
     "calories": 280
   },
   {
@@ -76,12 +79,14 @@
     "ingredients": [
       "Bread",
       "Avocado",
+      "Avocado",
       "Egg",
+      "Salt",
       "Salt",
       "Pepper",
       "Red Pepper Flakes"
     ],
-    "preparing_time": "15 minutes",
+    "preparing_time": 15,
     "calories": 250
   },
   {
@@ -95,10 +100,11 @@
       "Garlic",
       "Soy Sauce",
       "Lemon Juice",
+      "Lemon Juice",
       "Salt",
       "Pepper"
     ],
-    "preparing_time": "20 minutes",
+    "preparing_time": 20,
     "calories": 400
   },
   {
@@ -112,10 +118,11 @@
       "Broccoli",
       "Carrot",
       "Soy Sauce",
+      "Sugar",
       "Garlic",
       "Ginger"
     ],
-    "preparing_time": "25 minutes",
+    "preparing_time": 25,
     "calories": 300
   },
   {
@@ -128,10 +135,12 @@
       "Butter",
       "Eggs",
       "Sugar",
+      "Sugar",
+      "Sugar",
       "Flour",
       "Vanilla Extract"
     ],
-    "preparing_time": "30 minutes",
+    "preparing_time": 30,
     "calories": 600
   },
   {
@@ -144,10 +153,12 @@
       "Blueberries",
       "Banana",
       "Greek Yogurt",
+      "Greek Yogurt",
+      "Greek Yogurt",
       "Honey",
       "Granola"
     ],
-    "preparing_time": "10 minutes",
+    "preparing_time": 10,
     "calories": 220
   },
   {
@@ -159,12 +170,13 @@
       "Chickpeas",
       "Tomato",
       "Onion",
+      "Onion",
       "Garlic",
       "Ginger",
       "Curry Powder",
       "Coconut Milk"
     ],
-    "preparing_time": "40 minutes",
+    "preparing_time": 40,
     "calories": 350
   }
 ]
