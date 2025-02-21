@@ -8,6 +8,9 @@ import Sidebar from '../Sidebar/Sidebar';
 
 const Main = () => {
   const [recipeCategories, setRecipeCategories] = useState([]);
+  const [preparedRecipe, setPreparedRecipe] = useState([])
+  const [totalTime, setTotalTime] = useState(0)
+  const [totalCalories, setTotalCalories] = useState(0)
 
   const handleRecipeCard = recipe => {
     const isExist = recipeCategories.find(recipeCategory => recipeCategory.id === recipe.id)
@@ -20,6 +23,18 @@ const Main = () => {
       alert('This card already exist so do not try again')
     }
   }
+
+  const handleRemovePrepared = id => {
+    const deletedRecipe = recipeCategories.find(recipe => recipe.id === id)
+    const updatedRecipe = recipeCategories.filter(recipe => recipe.id !== id)
+    setRecipeCategories(updatedRecipe)
+    setPreparedRecipe([...preparedRecipe, deletedRecipe])
+  }
+
+  const handleTimeAndCalories = (time, calorie) => {
+    setTotalTime(totalTime + time)
+    setTotalCalories(totalCalories + calorie)
+  }
   return (
     <div>
       <Navbar></Navbar>
@@ -27,7 +42,12 @@ const Main = () => {
       <OurRecipe></OurRecipe>
       <div className='w-11/12 mx-auto flex'>
         <Recipes handleRecipeCard={handleRecipeCard}></Recipes>
-        <Sidebar recipeCategories={recipeCategories}></Sidebar>
+        <Sidebar
+          handleRemovePrepared={handleRemovePrepared}
+          recipeCategories={recipeCategories}
+          preparedRecipe={preparedRecipe}
+          handleTimeAndCalories={handleTimeAndCalories}>
+        </Sidebar>
       </div>
     </div>
   );
