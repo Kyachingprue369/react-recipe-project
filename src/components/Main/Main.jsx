@@ -4,6 +4,7 @@ import Header from '../Header/Header/Header';
 import OurRecipe from '../OurRecipe/OurRecipe';
 import Recipes from '../Recipes/Recipes';
 import Sidebar from '../Sidebar/Sidebar';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const Main = () => {
@@ -17,10 +18,9 @@ const Main = () => {
     if (!isExist) {
       const newRecipe = [...recipeCategories, recipe]
       setRecipeCategories(newRecipe);
-      console.log(newRecipe);
     }
     else {
-      alert('This card already exist so do not try again')
+      toast.error('🦄 sorry already exist!',);
     }
   }
 
@@ -51,8 +51,10 @@ const Main = () => {
           handleTimeAndCalories={handleTimeAndCalories}>
         </Sidebar>
       </div>
+      <ToastContainer />
     </div>
   );
 };
+
 
 export default Main;
