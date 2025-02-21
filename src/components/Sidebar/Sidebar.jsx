@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Sidebar = ({ recipeCategories, handleRemovePrepared, handleTimeAndCalories, preparedRecipe }) => {
+const Sidebar = ({ recipeCategories, handleRemovePrepared, handleTimeAndCalories, totalTime, totalCalories, preparedRecipe }) => {
 
   return (
     <div className='md:w-1/3 bg-gray-200 rounded-xl'>
@@ -25,7 +25,10 @@ const Sidebar = ({ recipeCategories, handleRemovePrepared, handleTimeAndCalories
                     <td>{recipeCategory.recipe_name}</td>
                     <td>{recipeCategory.preparing_time} minutes</td>
                     <td>{recipeCategory.calories} Calories</td>
-                    <button onClick={() => handleRemovePrepared(recipeCategory.id)} className='btn mt-2 bg-green-400 rounded-3xl mr-2'>Preparing</button>
+                    <button onClick={() => {
+                      handleRemovePrepared(recipeCategory.id)
+                      handleTimeAndCalories(recipeCategory.preparing_time, recipeCategory.calories)
+                    }} className='btn mt-2 bg-green-400 rounded-3xl mr-2'>Preparing</button>
                   </tr>)
               }
 
@@ -33,7 +36,7 @@ const Sidebar = ({ recipeCategories, handleRemovePrepared, handleTimeAndCalories
           </table>
         </div>
       </div>
-      <h3 className='text-center w-10/12 mx-auto font-bold text-xl border-b-2 border-gray-400 py-5 text-black'>Currently Cooking: {preparedRecipe.length}</h3>
+      <h3 className='text-center w-10/12 mx-auto font-bold mt-5 text-xl border-b-2 border-gray-400 py-5 text-black'>Currently Cooking: {preparedRecipe.length}</h3>
       <div>
         <div className="overflow-x-auto">
           <table className="table">
@@ -58,6 +61,12 @@ const Sidebar = ({ recipeCategories, handleRemovePrepared, handleTimeAndCalories
               }
 
             </tbody>
+            <tr>
+              <th></th>
+              <td></td>
+              <td>Total Time = {totalTime} </td>
+              <td>Total Calories = {totalCalories}</td>
+            </tr>
           </table>
         </div>
       </div>

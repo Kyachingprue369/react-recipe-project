@@ -46,6 +46,8 @@ const Main = () => {
           handleRemovePrepared={handleRemovePrepared}
           recipeCategories={recipeCategories}
           preparedRecipe={preparedRecipe}
+          totalTime={totalTime}
+          totalCalories={totalCalories}
           handleTimeAndCalories={handleTimeAndCalories}>
         </Sidebar>
       </div>
